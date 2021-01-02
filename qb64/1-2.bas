@@ -19,6 +19,7 @@ SCREEN 9, , 1, 1
 WINDOW (0, bottom)-(300, 220)
 SCREEN 9, , 0, 0
 WINDOW (0, bottom)-(300, 220)
+_TITLE "Georgi 1-2"
 DIM t1(100)
 PRINT CHR$(249);
 GET (0, 214)-(4, 220), t1()
@@ -106,7 +107,7 @@ y2 = (x * y1 + y * x1) / 50
 RESUME NEXT
 
 1 CLS
-CHAIN "lbas1.exe"
+REM CHAIN "lbas1.exe"
 END
 RETURN
 11 y = y + delta: GOSUB theloop12: RETURN
